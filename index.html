@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Tic Tac Toe by Mo A</title>
+    <link rel="stylesheet" href="src/animate.min.css" type="text/css"/>
+    <link rel="stylesheet" href="src/FormStyle.css" type="text/css"/>
+    <link rel="stylesheet" href="src/StyleSheet.css" type="text/css"/>
+    <link rel="stylesheet" href="src/bootstrap-theme.min.css"/>
+    <!--<link rel="stylesheet" href="src/bootstrap.min.css"/>-->
+
+    <script type="text/javascript" src="src/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="src/jquery-ui.js"></script>
+
+    <script>
+//        $();
+    </script>
+    <!--*******************************************************************************************************************-->
+</head>
+
+
+<body>
+
+<div id = 'container'>
+<!--<div id="box1" class="xc">
+    <input type="text" placeholder="Player-1" value="123" id="player1"/>
+    <input type="text" placeholder="Player-2" value="456" id="player2"/>
+
+    <button type="submit" onclick="submitInfo('box1')" id="startButton">Start</button>
+</div>-->
+<form class="form-container effect" id="form-container">
+    <div class="form-title"><h2>Players Names</h2></div>
+    <div class="form-title">Player-1</div>
+    <input id='player1' class="form-field" type="text"/><br/>
+
+    <div class="form-title">Player-2</div>
+    <input id='player2' class="form-field" type="text"/><br/>
+
+    <div class="submit-container">
+        <input class="submit-button js--triggerAnimation ui-state-default ui-corner-all" id="button" type="submit" value="Submit" onclick="submitInfo()"/>
+    </div>
+</form>
+
+<div class="hide info-div empty " id="user-info">
+    <div><label for="player-input1">Player 1   &nbsp;&nbsp;</label> <input type="text" name="" id="player-input1" disabled/></div>
+    <div><label for="player-input2">Player 2   &nbsp;&nbsp;</label> <input type="text" name="" id="player-input2" disabled/></div>
+    <button type="reset" class="myButton" onclick="reset()">Reset</button>
+    <p></p>
+    <label id="win">&nbsp;</label>
+    <p></p>
+    <label class="starLabel position-left">-</label>
+    <label class="starLabel position-right">-</label>
+</div>
+
+<div id="logo-RB" class="effect-up">
+        <img src="src/Logo2.png" width="300px" height="150px" alt=""/>
+</div>
+
+<div class="hide" id="box">
+    <div id="center">
+        <div class="row1">
+            <div class="button left" id="i1" onclick="clicked(this)">-</div>
+            <div class="button left" id="i2" onclick="clicked(this)">-</div>
+            <div class="button left" id="i3" onclick="clicked(this)">-</div>
+        </div>
+        <div class="row2">
+            <div class="button left" id="i4" onclick="clicked(this)">-</div>
+            <div class="button left" id="i5" onclick="clicked(this)">-</div>
+            <div class="button left" id="i6" onclick="clicked(this)">-</div>
+        </div>
+        <div class="row3">
+            <div class="button left" id="i7" onclick="clicked(this)">-</div>
+            <div class="button left" id="i8" onclick="clicked(this)">-</div>
+            <div class="button left" id="i9" onclick="clicked(this)">-</div>
+        </div>&nbsp;
+    </div>
+</div>
+
+</div>
+<script type="text/javascript" src="src/javascript.js"></script>
+
+<!--<script>
+    function testAnim(x) {
+        $('#animationSandbox').removeClass().addClass(x + ' animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+            $(this).removeClass();
+        });
+    };
+
+    $(document).ready(function(){
+        $('.js--triggerAnimation').click(function(e){
+            e.preventDefault();
+            var anim = $('.js--animations').val();
+            testAnim(anim);
+        });
+
+        $('.js--animations').change(function(){
+            var anim = $(this).val();
+            testAnim(anim);
+        });
+    });
+</script>-->
+</body>
+
+</html>

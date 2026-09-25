@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

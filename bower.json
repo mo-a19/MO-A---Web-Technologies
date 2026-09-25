@@ -1,0 +1,27 @@
+{
+  "name": "mo-ali.github.io",
+  "version": "0.0.0",
+  "homepage": "http://mo-ali.github.io",
+  "authors": [
+    "Mo A <your-email@example.com>"
+  ],
+  "description": "TodoList with Angular Material",
+  "main": "index.html",
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "angular-material": "~0.8.3",
+    "angularfire": "~1.1.1"
+  }
+}
