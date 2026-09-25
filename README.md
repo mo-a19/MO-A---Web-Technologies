@@ -47,8 +47,8 @@ I care about writing clean, readable code, understanding the "why" behind a tech
 Most projects here are static and run directly in the browser:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/mo-a19/MO-A---Web-Technologies.git
+cd MO-A---Web-Technologies
 # open the relevant project's index.html in your browser
 ```
 
@@ -62,15 +62,7 @@ bower install
 ## Notes for Reviewers
 
 - Firebase-backed projects reference a placeholder (`your-firebase-project.firebaseio.com`) — swap in your own Firebase project to run them live.
-- These repos span multiple years of work and reflect an evolving skill set — earlier projects are intentionally kept as-is to show progression rather than being retroactively "cleaned up."
-
-## Get in Touch
-
-Open to freelance and contract front-end / full-stack work.
-
-- **Upwork:** _link your Upwork profile here_
-- **Email:** your-email@example.com
-- **GitHub:** [github.com/your-username](https://github.com/your-username)
+- These projects span multiple years of work and reflect an evolving skill set — earlier projects are intentionally kept as-is to show progression rather than being retroactively "cleaned up."
 
 ## License
 
